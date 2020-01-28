@@ -14,7 +14,7 @@ class CreaturemonApplication : Application() {
     super.onCreate()
     database = Room.databaseBuilder(this,
             CreatureDatabase::class.java,
-            "creature_database")
+            "creature_table")
             .build()
   }
 }
